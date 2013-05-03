@@ -1,0 +1,26 @@
+query.size: 500
+warnup.size: 50
+
+cluster.name: 'elasticsearch-0.90'
+ip: '10.34.130.201'
+port: 9300
+
+size: '2m'
+
+index.name: 'nelo2-log-2013-05-02'
+index.batch: 500
+index.log.levels: ['DEBUG','INFO','ERROR','FATAL','WARNING']
+index.project.size: 1200
+index.body.size: 1000
+index.host.size: 5000
+index.word.size: 10000
+
+index.app.size: 4000
+index.app.name.size: 10
+index.delete: 'true'
+
+index.logtime.start: 0
+index.logtime.end: 3.6m
+
+termsfacet.query.count: 500
+termsfacet.query.warmup: 50
